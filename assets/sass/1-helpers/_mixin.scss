@@ -1,0 +1,51 @@
+
+
+
+
+// =====================================
+//       ALL TYPOGRAPHY MIXINS
+//======================================
+// BOLD TYPOGRAPHY
+@mixin bold_typography {
+    font-weight: 700;
+    font-family: $primary_family;
+}
+
+// REGULAR TYPOGRAPHY
+@mixin regular_typography {
+    font-weight: 400;
+    font-family: $secondary_family;
+    line-height: 28px;
+}
+
+
+//=====================================
+//      TRANSITION BROWSER PREFIX
+//======================================
+@mixin cursor_transition {
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+
+// =====================================
+//         FLEX CENTER PROPERTY
+//======================================
+@mixin flex_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+// =====================================
+//      BACKGROUND IMAGE PROPERTY
+//======================================
+@mixin background_property {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
