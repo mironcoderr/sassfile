@@ -1,0 +1,18 @@
+{
+    "version": 3,
+    "mappings": "ACOA,OAAO,CAAC,oGAAI;AAIZ,OAAO,CAAC,gGAAI;AAIZ,OAAO,CAAC,2FAAI;ACTZ,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,GAAG;EACZ,OAAO,EAAE,GAAG;CACf;;AAED,AAAA,GAAG,CAAC;EACA,cAAc,EAAE,MAAM;CACzB;;AAED,AAAA,CAAC,CAAC;EACE,eAAe,EAAE,IAAI;EACrB,OAAO,EAAE,YAAY;CACxB;;AAED,AAAA,EAAE;AACF,EAAE,CAAC;EACC,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,YAAY;CACxB;;AAED,AAAA,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,CAAC;AACD,EAAE;AACF,EAAE;AACF,IAAI;AACJ,KAAK,CAAC;EACF,aAAa,EAAE,cAAc;CAChC;;AAED,AAAA,IAAI;AACJ,IAAI,CAAC;EACD,eAAe,EAAE,MAAM;CAC1B",
+    "sources": [
+        "main.scss",
+        "1-helpers/_font.scss",
+        "1-helpers/_common.scss",
+        "1-helpers/_variable.scss",
+        "1-helpers/_mixin.scss",
+        "2-basics/_button.scss",
+        "2-basics/_search-bar.scss",
+        "3-layouts/_navbar.scss",
+        "3-layouts/_footer.scss",
+        "4-pages/_index.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
